@@ -1,0 +1,255 @@
+@media only screen and (max-width: 600px) {
+    /* Your mobile styles here */
+    .intro-text {
+        max-width: 100%; /* Adjust as needed */
+        padding-right: 0; /* Remove space between text and image */
+    }
+
+    .intro-image img {
+        width: 100%; /* Set image width to 100% for responsiveness */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    /* Apply similar adjustments to other sections as needed */
+}
+
+
+
+/* Basic Reset and Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 25px;
+  }
+  
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.links a{
+    text-decoration:  none;
+    color: black;
+    padding: 5px;
+    background-color: white;
+    margin-left:5px ;
+    border-radius: 25px;
+
+
+}
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/* Introduction Section Styles */
+.intro-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.intro-text {
+    flex-grow: 1;
+    max-width: 50%; /* Adjust as needed */
+    padding-right: 40px; /* Space between text and image */
+}
+
+.intro-text h2 {
+    font-size: 36px; /* Increase font size */
+    margin-bottom: 15px;
+}
+
+.intro-text p {
+    font-size: 20px; /* Increase font size */
+    line-height: 1.6;
+}
+
+.intro-image img {
+    width: 400px; /* Set your desired width */
+    height: 400px;
+    border-radius: 10%; /* To make it round */
+}
+
+/* About Section Styles */
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile-image img {
+    width: 400px; /* Set your desired width */
+    height: 400px;
+    border-radius: 10%; /* To make it round */
+    margin-right: 30px; /* Space between image and text */
+}
+
+.about-text {
+    flex-grow: 1;
+    max-width: 50%; /* Adjust as needed */
+}
+
+.about-text h2 {
+    font-size: 36px; /* Increase font size */
+    margin-bottom: 15px;
+}
+
+.about-text p {
+    font-size: 20px; /* Increase font size */
+    line-height: 1.6;
+}
+
+
+
+.html {
+    width: 90%; /* Change width according to skill level */
+}
+
+.css {
+    width: 85%; /* Change width according to skill level */
+}
+
+.js {
+    width: 80%; /* Change width according to skill level */
+}
+
+/* ... (more skills styles) */
+
+
+
+/* Section Styles */
+.section {
+    padding: 40px 0;
+}
+
+/* ... (previous styles) */
+
+/* Portfolio Section Styles */
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px
+
+}
+
+.project-card {
+    background-color: #f9f9f9;
+    padding: 10px;
+    width: calc(33.33% - 20px); /* Three cards in a row, subtracting margin */
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.project-card:nth-child(3n+1) {
+    margin-left: 0; /* Reset margin for the first card in each row */
+}
+
+.project-card img {
+    height: 200px;
+    width: 350px;
+    margin-bottom: 10px;
+   
+}
+
+.project-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.project-card p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.project-card .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#more{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #298cba;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    
+        
+
+}
+
+
+
+
+
+footer {
+    background-color: #10100f;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+
+
+
+
+
+
+.social-media-section {
+    padding: 50px;
+    background-color: #3d3b3b;
+    color: #fff;
+    text-align: center;
+    
+  }
+
+  .social-media-icon {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    filter: grayscale(100%);
+  }
+
+  .email{
+    margin-top: 15px;
+  }
+      
